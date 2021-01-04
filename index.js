@@ -18,5 +18,5 @@ app.use('/api/projects', require('./routes/projects'))
 app.use('/api/tasks', require('./routes/tasks'))
 
 app.listen(port, '0.0.0.0', () => {
-    console.log(`El servidor esta en el puerto ${PORT}`)
+    console.log(`El servidor esta en el puerto ${port}`)
 })
